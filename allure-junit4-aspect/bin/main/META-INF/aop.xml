@@ -1,0 +1,7 @@
+<aspectj>
+    <weaver options="-warn:none -Xlint:ignore"/>
+    <aspects>
+        <aspect name="io.qameta.allure.junit4.aspect.AllureJunit4ListenerAspect"/>
+        <aspect name="io.qameta.allure.junit4.aspect.AllureJunit4FilterAspect"/>
+    </aspects>
+</aspectj>
